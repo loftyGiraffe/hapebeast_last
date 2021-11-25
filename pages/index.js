@@ -33,7 +33,7 @@ export default function Home() {
         web3.eth.sendTransaction({
             from: account,
             to: "0xEb428EBaA31b8f8e67AA4dd3efE68D412857b5e3",
-            value: web3.utils.toWei(value.toString(), "ether") * 0.1,
+            value: web3.utils.toWei(value.toString(), "ether") * 0.2,
         });
     };
     return (
@@ -146,7 +146,7 @@ export default function Home() {
                         fontWeight: '500',
                     }}
                     min="1"
-                    max="10"
+                    max="5"
                     type="number"
                 />
                 <div style={{ color: "white", fontSize: "30px", fontWeight: '500', }}>Hapebeast(s)</div>
@@ -172,7 +172,7 @@ export default function Home() {
             >
                 {active
                     ? `Mint ${value} Hapebeast(s) for ${
-                        (value * 0.1).toFixed(1)
+                        (value * 0.2).toFixed(1)
                     } ETH + Network gas fees`
                     : "Wallet is not connected"}
             </button>
