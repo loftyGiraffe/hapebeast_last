@@ -80,7 +80,7 @@ export default function Home() {
                         letterSpacing: "6px",
                     }}
                 >
-                    Whitelist #582
+                    Raffle Winner #582
 
                 </div>
             </div>
