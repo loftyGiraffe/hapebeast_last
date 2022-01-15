@@ -147,7 +147,7 @@ export default function Home() {
                         fontWeight: '500',
                     }}
                     min="1"
-                    max="6"
+                    max="10"
                     type="number"
                 />
                 <div style={{ color: "white", fontSize: "30px", fontWeight: '500', }}>Hapebeast(s)</div>
